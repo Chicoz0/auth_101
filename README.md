@@ -27,15 +27,18 @@ This project is a user authentication system developed with Ruby on Rails. It in
 
 2. Install dependencies:
 
+  ```sh
   bundle install
 
 3. Set up the database:
 
+  ```sh
   rails db:create
   rails db:migrate
 
 4. Start the server:
 
+  ```sh
   rails server
 
 5. Access the application at http://localhost:3000.
@@ -70,8 +73,11 @@ This project is a user authentication system developed with Ruby on Rails. It in
 
 2. Install JavaScript dependencies:
 
+  ```sh
   yarn install
 
 3. (Ubuntu) System Dependencies
+
+  ```sh
   sudo apt-get update
   sudo apt-get install -y ruby-full sqlite3 libsqlite3-dev nodejs yarn
