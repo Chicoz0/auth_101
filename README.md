@@ -83,7 +83,7 @@ This project is a user authentication system developed with Ruby on Rails. It in
 4. Push to the branch (git push origin feature/new-feature).
 5. Create a new Pull Request.
 
-## Upcoming functionalities
+## Upcoming features
 
 - Account Locking: Implements security measures to lock user accounts after a certain number of failed login attempts, protecting against brute force attacks.
 - Role-Based Access Control (RBAC): Supports different user roles (e.g., admin, user) with varying levels of access permissions.
