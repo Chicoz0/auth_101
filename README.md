@@ -6,10 +6,11 @@ This project is a user authentication system developed with Ruby on Rails. It in
 
 ## Features
 
-- User registration
-- User login
-- User logout
-- Password reset with mailer support
+- User Registration: Allows new users to create accounts by providing necessary details such as email and password.
+- Login/Logout Functionality: Enables users to securely log in and log out of their accounts.
+- Password Encryption: Utilizes strong encryption algorithms to store passwords securely in the database.
+- Email Confirmation: Sends confirmation emails to new users to verify their email addresses before activating their accounts.
+- Password Reset: Provides users with the ability to reset their passwords via email in case they forget them.
 
 ## Requirements
 
@@ -43,14 +44,6 @@ This project is a user authentication system developed with Ruby on Rails. It in
 
 5. Access the application at http://localhost:3000.
 
-## Contribution
-
-1. Fork the project.
-2. Create a new branch (git checkout -b feature/new-feature).
-3. Commit your changes (git commit -am 'Add new feature').
-4. Push to the branch (git push origin feature/new-feature).
-5. Create a new Pull Request.
-
 ## Dependencies
 
 ### Ruby Gems
@@ -81,3 +74,19 @@ This project is a user authentication system developed with Ruby on Rails. It in
    ```sh
    sudo apt-get update
    sudo apt-get install -y ruby-full sqlite3 libsqlite3-dev nodejs yarn
+
+## Contribution
+
+1. Fork the project.
+2. Create a new branch (git checkout -b feature/new-feature).
+3. Commit your changes (git commit -am 'Add new feature').
+4. Push to the branch (git push origin feature/new-feature).
+5. Create a new Pull Request.
+
+## Upcoming functionalities
+
+- Account Locking: Implements security measures to lock user accounts after a certain number of failed login attempts, protecting against brute force attacks.
+- Role-Based Access Control (RBAC): Supports different user roles (e.g., admin, user) with varying levels of access permissions.
+- Session Management: Manages user sessions securely to prevent unauthorized access and session hijacking.
+- Two-Factor Authentication (2FA): Adds an extra layer of security by requiring a second form of verification during login.
+- OAuth Integration: Allows users to log in using third-party services such as Google, Facebook, or GitHub.
