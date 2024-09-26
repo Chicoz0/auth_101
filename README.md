@@ -22,8 +22,8 @@ This project is a user authentication system developed with Ruby on Rails. It in
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/Chicoz0/user_auth_app.git
-   cd user_auth_app
+   git clone https://github.com/Chicoz0/auth_101
+   cd auth_101
 
 2. Install dependencies:
 
